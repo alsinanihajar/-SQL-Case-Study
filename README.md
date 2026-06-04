@@ -245,9 +245,9 @@ Show the average listening time for each age.
 
 ---
 
-# Deliverables
+## Deliverables
 
-يجب على الطلاب تسليم:
+** يجب على الطلاب تسليم:
 1- ملف SQL يحتوي على جميع حلول الاستعلامات.
 2- تقرير مختصر (1–2 صفحة) يلخص النتائج والرؤى حسب مفهومك . 
 
