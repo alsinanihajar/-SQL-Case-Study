@@ -15,8 +15,10 @@ Your goal is to answer business questions using SQL queries and provide insights
 في هذا المشروع، ستعمل كمحلل بيانات وتستخدم Microsoft SQL Server لتحليل مجموعة بيانات واقعية لبث الموسيقى.
 هدفك هو الإجابة على الاسئلة باستخدام استعلامات SQL وتقديم رؤى بناءً على البيانات.
 
+
+حمل البيانات من هنا
+https://github.com/alsinanihajar/-SQL-Case-Study/blob/main/MusicStreaming.csv 
 ---
-حمل البيانات من هنا MusicStreaming.csv 
 
 ## Dataset Information
 
