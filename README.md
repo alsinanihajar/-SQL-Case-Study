@@ -13,7 +13,7 @@ Your goal is to answer business questions using SQL queries and provide insights
 
 تقوم خدمات بث الموسيقى بجمع كميات كبيرة من بيانات المستمعين يوميًا. تساعد هذه البيانات الشركات على فهم سلوك العملاء، وتحسين التوصيات، واتخاذ قرارات أعمال أفضل.
 في هذا المشروع، ستعمل كمحلل بيانات وتستخدم Microsoft SQL Server لتحليل مجموعة بيانات واقعية لبث الموسيقى.
-هدفك هو الإجابة على أسئلة الأعمال باستخدام استعلامات SQL وتقديم رؤى بناءً على البيانات.
+هدفك هو الإجابة على الاسئلة باستخدام استعلامات SQL وتقديم رؤى بناءً على البيانات.
 
 ---
 
@@ -98,20 +98,7 @@ Your goal is to answer business questions using SQL queries and provide insights
 نسبة تكرار الاستماع لنفس الأغاني.
 ---
 
-## Importing the CSV File into Microsoft SQL Server
 
-Follow these steps to import the dataset:
-
-1. Open **SQL Server Management Studio (SSMS)**.
-2. Create a new database.
-3. Right-click the database.
-4. Select **Tasks**.
-5. Select **Import Flat File**.
-6. Browse and select the CSV file.
-7. Click **Next**.
-8. Review the table details.
-9. Click **Finish**.
-10. Verify that the table has been created successfully.
 
 ## استيراد ملف CSV إلى Microsoft SQL Server
 
@@ -133,10 +120,9 @@ Follow these steps to import the dataset:
 
 ## Question 1
 
-### English
+
 What is the average number of minutes streamed per day for each streaming platform?
 
-### العربية
 ما متوسط عدد دقائق الاستماع اليومية لكل منصة بث؟
 
 **Hint:** Use `AVG()` with `GROUP BY`.
@@ -147,10 +133,9 @@ What is the average number of minutes streamed per day for each streaming platfo
 
 ## Question 2
 
-### English
+
 Which countries have the highest average streaming time per day?
 
-### العربية
 ما الدول التي تمتلك أعلى متوسط لوقت الاستماع اليومي؟
 
 **Hint:** Calculate the average listening time for each country and sort the results.
@@ -161,10 +146,8 @@ Which countries have the highest average streaming time per day?
 
 ## Question 3
 
-### English
 What is the average number of liked songs for each music genre?
-
-### العربية
+ 
 ما متوسط عدد الأغاني المفضلة لكل نوع موسيقي؟
 
 **Hint:** Use `AVG()` with `GROUP BY`.
@@ -175,10 +158,10 @@ What is the average number of liked songs for each music genre?
 
 ## Question 4
 
-### English
+
 Compare Premium and Free users in terms of average listening time.
 
-### العربية
+
 قارن بين مستخدمي Premium و Free من حيث متوسط وقت الاستماع.
 
 **Hint:** Group the data by subscription type.
@@ -189,10 +172,8 @@ Compare Premium and Free users in terms of average listening time.
 
 ## Question 5
 
-### English
 Which music genre has the highest average listening time?
 
-### العربية
 أي نوع موسيقي يمتلك أعلى متوسط لوقت الاستماع؟
 
 **Hint:** Calculate the average streaming minutes for each genre and sort descending.
@@ -203,10 +184,8 @@ Which music genre has the highest average listening time?
 
 ## Question 6
 
-### English
 What is the average Discover Weekly Engagement percentage for each streaming platform?
 
-### العربية
 ما متوسط نسبة التفاعل مع Discover Weekly لكل منصة بث؟
 
 **Hint:** Use `AVG()` with `GROUP BY`.
@@ -217,10 +196,8 @@ What is the average Discover Weekly Engagement percentage for each streaming pla
 
 ## Question 7
 
-### English
 What is the average Repeat Song Rate for each streaming platform?
 
-### العربية
 ما متوسط معدل إعادة تشغيل الأغاني لكل منصة بث؟
 
 **Hint:** Use `AVG()` with `GROUP BY`.
@@ -231,10 +208,8 @@ What is the average Repeat Song Rate for each streaming platform?
 
 ## Question 8
 
-### English
 Find all users who stream more than 500 minutes per day.
 
-### العربية
 اعرض جميع المستخدمين الذين يستمعون لأكثر من 500 دقيقة يوميًا.
 
 **Hint:** Use a `WHERE` condition.
@@ -245,10 +220,8 @@ Find all users who stream more than 500 minutes per day.
 
 ## Question 9
 
-### English
 Find all Premium users from Germany.
 
-### العربية
 اعرض جميع مستخدمي Premium من ألمانيا.
 
 **Hint:** Use multiple conditions in the `WHERE` clause.
@@ -259,10 +232,8 @@ Find all Premium users from Germany.
 
 ## Question 10
 
-### English
 Show the average listening time for each age.
 
-### العربية
 اعرض متوسط وقت الاستماع لكل عمر.
 
 **Hint:** Use `AVG()` and `GROUP BY Age`.
@@ -273,11 +244,9 @@ Show the average listening time for each age.
 
 # Deliverables
 
-Students must submit:
-
-1. SQL Server database containing the imported dataset.
-2. SQL file containing all query solutions.
-4. A short report (1–2 pages) summarizing the findings and insights.
+يجب على الطلاب تسليم:
+1- ملف SQL يحتوي على جميع حلول الاستعلامات.
+2- تقرير مختصر (1–2 صفحة) يلخص النتائج والرؤى حسب مفهومك . 
 
 ---
 
